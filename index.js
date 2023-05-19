@@ -6,7 +6,6 @@ const { body, validationResult } = require('express-validator')
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const cors = require('cors')
-const serverlessHTTP = require('serverless-http')
 
 let success = true
 
